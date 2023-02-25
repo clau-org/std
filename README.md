@@ -32,7 +32,7 @@ The myFn() function returns a string that represents the result of doing X, Y, o
 
 ## API documentation
 
-For full documentation of all functions provided by this module, please see the docs directory in this repository.
+For full documentation of all functions provided by this module, please see the README.md in each module directory in this repository.
 
 
 ## Contributing
