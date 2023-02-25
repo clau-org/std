@@ -5,15 +5,35 @@ These modules try to minimize external dependencies and they are reviewed by the
 
 ## Installation
 
-To use this module in your Deno project, you can import it from a remote URL like this:
+### Shared 
 
-```typescript
-import { myFn } from 'https://raw.githubusercontent.com/clau-org/std/main/mod.ts';
+To use a module in your project, you can import it from a remote URL like this:
 
-const result = myFn();
-console.log(result);
+```
+https://raw.githubusercontent.com/clau-org/std/main/mod.ts
 ```
 
+### Backend 
+
+To use a module in your Deno project, you can import it from a remote URL like this:
+
+```
+https://raw.githubusercontent.com/clau-org/std/main/server/mod.ts
+```
+
+### Frontend 
+
+To use a layer in your Nuxt project, you can import it from a remote URL like this:
+
+```
+https://raw.githubusercontent.com/clau-org/std/main/client/mod
+```
+
+To use a module in your Nuxt project, you can import it from a package like this:
+
+```
+@clau-org/client/mod
+```
 
 ## Usage
 
