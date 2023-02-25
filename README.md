@@ -8,7 +8,7 @@ These modules try to minimize external dependencies and they are reviewed by the
 To use this module in your Deno project, you can import it from a remote URL like this:
 
 ```typescript
-import { myFn } from 'https://raw.githubusercontent.com/<username>/<repo>/v1.0.0/mod.ts';
+import { myFn } from 'https://raw.githubusercontent.com/clau-org/std/main/mod.ts';
 
 const result = myFn();
 console.log(result);
@@ -21,7 +21,7 @@ Here's an example of how to use the myFunction() function in your project:
 
 ```typescript
 Copy code
-import { myFn } from 'https://raw.githubusercontent.com/clau-org/std/v1.0.0/mod.ts';
+import { myFn } from 'https://raw.githubusercontent.com/clau-org/std/main/mod.ts';
 
 const result = myFn();
 console.log(result);
